@@ -2,7 +2,7 @@ body {
     font-size: 13pt;
     color: #222;
     background: #fdfdfd;
-    font-family: 'Source Sans Pro', "Segoe UI", "Roboto";
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.4;
     margin: 10%;
 }
@@ -76,8 +76,9 @@ a:hover {
 }
 
 a {
+    font-weight: bold;
     color: #06c;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 blockquote {
@@ -92,7 +93,8 @@ dfn {
 
 em,
 dfn {
-    font-style: italic;
+    color: #06c;
+    font-style: normal;
 }
 
 del {
@@ -105,7 +107,7 @@ pre {
 }
 
 pre,
-code,
+/*code,*/
 tt {
     font: 1em 'andale mono', 'lucida console', monospace;
     line-height: 1.5;
@@ -150,8 +152,11 @@ figure img {
 }
 
 code {
-    font-family: Menlo, monospace;
-    font-size: 90%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    /*color: #06c;*/
+    font-size: 80%;
 }
 
 p > code {
