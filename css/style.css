@@ -4,12 +4,6 @@ body {
     font-weight: 400;
 }
 
-#title {
-    font-family: 'Poiret One', cursive;
-    font-size: 32px;
-    color: white;
-}
-
 #navbar a {
 	font-weight: 400;
     color: white;
@@ -26,4 +20,11 @@ dt, strong {
 
 strong{
     font-style: italic;
+}
+
+
+#title {
+    font-family: 'Roboto', 'Poiret One', cursive;
+    font-size: 32px;
+    color: white;
 }
