@@ -7,10 +7,14 @@ body {
 #navbar a {
 	font-weight: 400;
     color: white;
+    border-bottom: 0px;
 }
 
-a {
+a, a:hover {
     font-weight: 400;
+    border-bottom: 1px dotted #aaa;
+    color: #666;
+    text-decoration: none;
 }
 
 dt, strong {
