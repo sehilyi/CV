@@ -10,6 +10,10 @@ body {
     border-bottom: 0px;
 }
 
+.subtitle {
+    margin-bottom: 10px;
+}
+
 a, a:hover {
     font-weight: 400;
     border-bottom: 1px dotted #aaa;
@@ -20,10 +24,6 @@ a, a:hover {
 dt, strong {
    font-family: 'Roboto', sans-serif;
    font-weight: 600;
-}
-
-strong{
-    /*font-style: italic;*/
 }
 
 #title {
