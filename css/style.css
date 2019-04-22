@@ -28,6 +28,11 @@ dt, strong {
    font-weight: 600;
 }
 
+.hl {
+    color: #3b2cff;
+    font-weight: bold;
+}
+
 #title {
     font-family: 'Roboto', 'Poiret One', cursive;
     font-size: 32px;
