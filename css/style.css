@@ -12,6 +12,14 @@ body {
     border-bottom: 0px;
 }
 
+.figure-img {
+    margin-left: 33px;
+}
+
+.desc {
+    align-self: center;
+}
+
 .subtitle {
     margin-bottom: 10px;
 }
