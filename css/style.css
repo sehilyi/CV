@@ -12,11 +12,16 @@ body {
     border-bottom: 0px;
 }
 
-.figure-img {
+.profile{ 
     margin-left: 33px;
 }
 
+.figure-img {
+    /* margin-left: 33px; */
+}
+
 .desc {
+    margin-top: 50px;
     /* align-self: center; */
 }
 
