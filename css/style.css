@@ -3,26 +3,29 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #343a40;
-    padding-top: 70px;
+    padding: 26px;
+}
+
+#profile {
+    padding: 0px;
+}
+
+#navbar {
+    padding-bottom: 26px;
+}
+
+.left-panel {
+    flex: 0 0 230px;
 }
 
 #navbar a {
 	font-weight: 400;
-    color: white;
+    color: black;
     border-bottom: 0px;
 }
 
-.profile{ 
-    margin-left: 33px;
-}
-
-.figure-img {
-    /* margin-left: 33px; */
-}
-
-.desc {
-    margin-top: 50px;
-    /* align-self: center; */
+.figure img {
+    width: 250px;
 }
 
 .subtitle {
